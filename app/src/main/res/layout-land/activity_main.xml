@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgImagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:paddingLeft="200dp"
+            android:paddingRight="200dp"
+            app:srcCompat="@drawable/imagen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="200dp">
+
+        <Button
+            android:id="@+id/btnNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/numeros"
+            android:paddingTop="10dp"
+            android:text="@string/btnNumero" />
+
+        <Button
+            android:id="@+id/btnListado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/lista"
+            android:text="@string/btnListado" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="200dp">
+
+        <Button
+            android:id="@+id/btnImagenes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/imagen2"
+            android:paddingTop="10dp"
+            android:text="@string/btnImagenes" />
+
+        <Button
+            android:id="@+id/btnFlores"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="125dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/flor"
+            android:text="@string/btnFlores" />
+    </LinearLayout>
+
+</LinearLayout>

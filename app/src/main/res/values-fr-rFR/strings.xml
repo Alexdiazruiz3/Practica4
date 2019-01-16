@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica4</string>
+    <string name="btnNumero">Nombres Premiers</string>
+    <string name="btnListado">Listage</string>
+    <string name="btnImagenes">Images</string>
+    <string name="btnFlores">Fleurs</string>
+    <string name="espana">Espagne</string>
+    <string name="grecia">Grecia</string>
+    <string name="rusia">Rusia</string>
+    <string name="belgica">Belgique</string>
+    <string name="inglaterra">Angleterre</string>
+    <string name="portugal">Portugal</string>
+    <string name="francia">France</string>
+    <string name="italia">Italien</string>
+    <string name="alemania">Allemagne</string>
+    <string name="holanda">Pays-Bas</string>
+    <string name="madrid">Madrid</string>
+    <string name="atenas">Athènes</string>
+    <string name="moscu">Moscou</string>
+    <string name="bruselas">Bruxelles</string>
+    <string name="londres">Londres</string>
+    <string name="lisboa">Lisbonne</string>
+    <string name="paris">Paris</string>
+    <string name="roma">Roma</string>
+    <string name="berlin">Berlín</string>
+    <string name="amsterdam">Amsterdam</string>
+    <string name="txtNumero">Numeros:</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="uno">Rose</string>
+    <string name="dos">Clé</string>
+    <string name="tres">Jasmin</string>
+    <string name="cuatro">Tulipe</string>
+    <string name="btnVerificar">Verifier</string>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <!--Activity Principal -->
+    <string name="app_name">Practica4</string>
+    <string name="btnNumero">Números Primos</string>
+    <string name="btnListado">Listado</string>
+    <string name="btnImagenes">Imágenes</string>
+    <string name="btnFlores">Flores</string>
+
+    <!--Paises-->
+    <string name="espana">España</string>
+    <string name="grecia">Grecia</string>
+    <string name="rusia">Rusia</string>
+    <string name="belgica">Bélgica</string>
+    <string name="inglaterra">Inglaterra</string>
+    <string name="portugal">Portugal</string>
+    <string name="francia">Francia</string>
+    <string name="italia">Italia</string>
+    <string name="alemania">Alemania</string>
+    <string name="holanda">Holanda</string>
+
+    <!--Ciudades-->
+    <string name="madrid">Madrid</string>
+    <string name="atenas">Atenas</string>
+    <string name="moscu">Moscú</string>
+    <string name="bruselas">Bruselas</string>
+    <string name="londres">Londres</string>
+    <string name="lisboa">Lisboa</string>
+    <string name="paris">París</string>
+    <string name="roma">Roma</string>
+    <string name="berlin">Berlín</string>
+    <string name="amsterdam">Amsterdam</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="activity_main_numeors" translatable="false">Hello blank fragment</string>
+    <string name="txtNumero">Número:</string>
+    <string name="btnCalcular">Calcular</string>
+
+    <!-- Seleccionado Imágenes -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="uno">Rosa</string>
+    <string name="dos">Clavel</string>
+    <string name="tres">Jazmín</string>
+    <string name="cuatro">Tulipán</string>
+    <string name="btnVerificar">Verificar</string>
+
+
+</resources>
