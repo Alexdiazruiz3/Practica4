@@ -1,11 +1,11 @@
 package com.example.alex.practica4;
 
-import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+        import android.net.Uri;
+        import android.support.v7.app.AppCompatActivity;
+        import android.os.Bundle;
 
 public class DesplazandoImagenes extends AppCompatActivity implements FragmentImagen1.OnFragmentInteractionListener,
-    Imagen2.OnFragmentInteractionListener{
+        Imagen2.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
