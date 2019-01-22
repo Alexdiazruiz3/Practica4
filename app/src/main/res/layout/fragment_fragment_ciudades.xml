@@ -7,79 +7,91 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <RadioGroup
-        android:id="@+id/grpCiudades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <RadioButton
-            android:id="@+id/radioMadrid"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Madrid" />
+            android:orientation="vertical" >
 
-        <RadioButton
-            android:id="@+id/radioParis"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Paris" />
+            <RadioGroup
+                android:id="@+id/grpCiudades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioLondres"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Londres" />
+                <RadioButton
+                    android:id="@+id/radioMadrid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/madrid" />
 
-        <RadioButton
-            android:id="@+id/radioRoma"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Roma" />
+                <RadioButton
+                    android:id="@+id/radioParis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/paris" />
 
-        <RadioButton
-            android:id="@+id/radioBerlin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Berlín" />
+                <RadioButton
+                    android:id="@+id/radioLondres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/londres" />
 
-        <RadioButton
-            android:id="@+id/radioLisboa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Lisboa" />
+                <RadioButton
+                    android:id="@+id/radioRoma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/roma" />
 
-        <RadioButton
-            android:id="@+id/radioBruselas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Bruselas" />
+                <RadioButton
+                    android:id="@+id/radioBerlin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/berlin" />
 
-        <RadioButton
-            android:id="@+id/radioAtenas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Atenas" />
+                <RadioButton
+                    android:id="@+id/radioLisboa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/lisboa" />
 
-        <RadioButton
-            android:id="@+id/radioAmsterdan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Amsterdam" />
+                <RadioButton
+                    android:id="@+id/radioBruselas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/bruselas" />
 
-        <RadioButton
-            android:id="@+id/radioMoscu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Moscú" />
-    </RadioGroup>
+                <RadioButton
+                    android:id="@+id/radioAtenas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/atenas" />
+
+                <RadioButton
+                    android:id="@+id/radioAmsterdan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/amsterdam" />
+
+                <RadioButton
+                    android:id="@+id/radioMoscu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/moscu" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
 </FrameLayout>

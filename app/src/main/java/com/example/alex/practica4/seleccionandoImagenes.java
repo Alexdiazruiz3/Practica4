@@ -1,61 +1,57 @@
 package com.example.alex.practica4;
 
-import android.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 
-public class seleccionandoImagenes extends AppCompatActivity {
+public class seleccionandoImagenes extends AppCompatActivity implements rosa.OnFragmentInteractionListener,
+        clavel.OnFragmentInteractionListener,
+        jazmin.OnFragmentInteractionListener,
+        tulipan.OnFragmentInteractionListener{
 
-    Button btnUno;
-    Button btnDos;
-    Button btnTres;
-    Button btnCuatro;
-    ImageView imgRosa;
-    ImageView imgClavel;
-
+    rosa rosa ;
+    clavel clavel;
+    jazmin jazmin;
+    tulipan tulipan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seleccionando_imagenes);
+        rosa = new rosa();
+        clavel = new clavel();
+        jazmin = new jazmin();
+        tulipan = new tulipan();
 
-
-        btnUno = findViewById(R.id.btnUno);
-        btnDos = findViewById(R.id.btnDos);
-        btnTres = findViewById(R.id.btnTres);
-        btnCuatro = findViewById(R.id.btnCuatro);
-        imgRosa = findViewById(R.id.imgRosa);
-        imgClavel = findViewById(R.id.imgClavel);
-
-
-
-
-
-
-        btnUno.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {}
-        });
-
-        btnDos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {}
-        });
-
-        btnTres.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {}
-        });
-
-        btnCuatro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {}
-        });
-
-
-
+       getSupportFragmentManager().beginTransaction().add(R.id.imagenes, rosa).commit();
     }
+
+        public void onClick(View v)
+        {
+            FragmentTransaction Transaction = getSupportFragmentManager().beginTransaction();
+
+            switch (v.getId())
+            {
+                case R.id.btnRosa:
+                    Transaction.replace(R.id.imagenes, rosa);
+                    break;
+                case R.id.btnClavel:
+                    Transaction.replace(R.id.imagenes, clavel);
+                    break;
+                case R.id.btnJazmin:
+                    Transaction.replace(R.id.imagenes, jazmin);
+                    break;
+                case R.id.btnTulipan:
+                    Transaction.replace(R.id.imagenes, tulipan);
+                    break;
+
+            }
+            Transaction.commit();
+        }
+        @Override
+        public void onFragmentInteraction(Uri uri) {
+
+        }
 }

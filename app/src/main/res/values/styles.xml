@@ -9,4 +9,135 @@
 
     </style>
 
+    <style name="botones" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btnNumero" parent="botones">
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableLeft">@drawable/numeros</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnNumero</item>
+    </style>
+
+    <style name="btnNumeroLand" parent="botones">
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableLeft">@drawable/numeros</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnNumero</item>
+    </style>
+
+    <style name="btnListado" parent="botones">
+        <item name="android:layout_marginLeft">65dp</item>
+        <item name="android:drawableLeft">@drawable/lista</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnListado</item>
+    </style>
+
+    <style name="btnListadoLand" parent="botones">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">65dp</item>
+        <item name="android:drawableLeft">@drawable/lista</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnListado</item>
+        <item name="android:layout_width">104dp</item>
+    </style>
+
+    <style name="btnImagenes" parent="botones">
+        <item name="android:drawableLeft">@drawable/imagen2</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnImagenes</item>
+    </style>
+
+    <style name="btnImagenesLand" parent="botones">
+        <item name="android:drawableLeft">@drawable/imagen2</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnImagenes</item>
+    </style>
+
+    <style name="btnFlores" parent="botones">
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableLeft">@drawable/flor</item>
+        <item name="android:layout_marginLeft">125dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnFlores</item>
+    </style>
+
+    <style name="btnFloresLand" parent="botones">
+        <item name="android:drawableLeft">@drawable/flor</item>
+        <item name="android:layout_marginLeft">125dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:text">@string/btnFlores</item>
+    </style>
+
+    <style name="btnVerificar" parent="botones">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/btnVerificar</item>
+    </style>
+
+    <style name="btnCalcular" parent="botones">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:text">@string/btnCalcular</item>
+    </style>
+
+    <style name="btnRosa" parent="botones">
+       <item name="android:onClick">onClick</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/Rosa</item>
+    </style>
+
+    <style name="btnRosaLand" parent="btnRosa">
+        <item name="android:onClick">onClick</item>
+        <item name="android:text">@string/Rosa</item>
+    </style>
+
+    <style name="btnClavel" parent="botones">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/Clavel</item>
+    </style>
+
+    <style name="btnClavelLand" parent="btnClavel">
+        <item name="android:onClick">onClick</item>
+        <item name="android:text">@string/Clavel</item>
+    </style>
+
+    <style name="btnJazmin" parent="botones">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/Jazmin</item>
+    </style>
+
+    <style name="btnJazminLand" parent="btnJazmin">
+        <item name="android:onClick">onClick</item>
+        <item name="android:text">@string/Jazmin</item>
+    </style>
+
+    <style name="btnTulipan" parent="botones">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/Tulipan</item>
+    </style>
+
+    <style name="btnTulipanLand" parent="btnTulipan">
+        <item name="android:onClick">onClick</item>
+        <item name="android:text">@string/Tulipan</item>
+    </style>
+
+
+
+
+
+
+
+
+
 </resources>

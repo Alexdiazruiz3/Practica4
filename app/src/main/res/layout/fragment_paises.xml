@@ -7,79 +7,91 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <RadioGroup
-        android:id="@+id/grpPiases"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <RadioButton
-            android:id="@+id/radioRusia"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/rusia" />
+            android:orientation="vertical" >
 
-        <RadioButton
-            android:id="@+id/radioGrecia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/grecia" />
+            <RadioGroup
+                android:id="@+id/grpPaises"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioEspaña"
-            android:text="@string/espana"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                <RadioButton
+                    android:id="@+id/radioRusia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/rusia" />
 
-        <RadioButton
-            android:id="@+id/radioBelgica"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/belgica" />
+                <RadioButton
+                    android:id="@+id/radioGrecia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/grecia" />
 
-        <RadioButton
-            android:id="@+id/radioReinoUnido"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/inglaterra" />
+                <RadioButton
+                    android:id="@+id/radioEspaña"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/espana" />
 
-        <RadioButton
-            android:id="@+id/radioPortugal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/portugal" />
+                <RadioButton
+                    android:id="@+id/radioBelgica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/belgica" />
 
-        <RadioButton
-            android:id="@+id/radioFrancia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/francia" />
+                <RadioButton
+                    android:id="@+id/radioInglaterra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/inglaterra" />
 
-        <RadioButton
-            android:id="@+id/radioItalia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/italia" />
+                <RadioButton
+                    android:id="@+id/radioPortugal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/portugal" />
 
-        <RadioButton
-            android:id="@+id/radioAlemania"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/alemania" />
+                <RadioButton
+                    android:id="@+id/radioFrancia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/francia" />
 
-        <RadioButton
-            android:id="@+id/radioHolanda"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/holanda" />
-    </RadioGroup>
+                <RadioButton
+                    android:id="@+id/radioItalia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/italia" />
+
+                <RadioButton
+                    android:id="@+id/radioAlemania"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/alemania" />
+
+                <RadioButton
+                    android:id="@+id/radioHolanda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/holanda" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
 </FrameLayout>

@@ -27,9 +27,9 @@
     <string name="amsterdam">Amsterdam</string>
     <string name="txtNumero">Numeros:</string>
     <string name="btnCalcular">Calcular</string>
-    <string name="uno">Rose</string>
-    <string name="dos">Clé</string>
-    <string name="tres">Jasmin</string>
-    <string name="cuatro">Tulipe</string>
     <string name="btnVerificar">Verifier</string>
+    <string name="Tulipan">Tulipe</string>
+    <string name="Rosa">Rose</string>
+    <string name="Clavel">Oeillet</string>
+    <string name="Jazmin">Jasmin</string>
 </resources>

@@ -32,21 +32,11 @@
 
         <Button
             android:id="@+id/btnNumero"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:drawableLeft="@drawable/numeros"
-            android:paddingTop="10dp"
-            android:text="@string/btnNumero" />
+            style="@style/btnNumero" />
 
         <Button
             android:id="@+id/btnListado"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="65dp"
-            android:layout_weight="1"
-            android:drawableLeft="@drawable/lista"
-            android:text="@string/btnListado" />
+            style="@style/btnListado" />
 
     </LinearLayout>
 
@@ -57,21 +47,11 @@
 
         <Button
             android:id="@+id/btnImagenes"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:drawableLeft="@drawable/imagen2"
-            android:paddingTop="10dp"
-            android:text="@string/btnImagenes" />
+            style="@style/btnImagenes"/>
 
         <Button
             android:id="@+id/btnFlores"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="125dp"
-            android:layout_weight="1"
-            android:drawableLeft="@drawable/flor"
-            android:text="@string/btnFlores" />
+            style="@style/btnFlores"/>
     </LinearLayout>
 
 </LinearLayout>

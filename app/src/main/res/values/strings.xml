@@ -30,7 +30,6 @@
     <string name="berlin">Berlín</string>
     <string name="amsterdam">Amsterdam</string>
 
-
     <!-- TODO: Remove or change this placeholder text -->
     <string name="activity_main_numeors" translatable="false">Hello blank fragment</string>
     <string name="txtNumero">Número:</string>
@@ -38,11 +37,10 @@
 
     <!-- Seleccionado Imágenes -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
-    <string name="uno">Rosa</string>
-    <string name="dos">Clavel</string>
-    <string name="tres">Jazmín</string>
-    <string name="cuatro">Tulipán</string>
+    <string name="Rosa">Rosa</string>
+    <string name="Clavel">Clavel</string>
+    <string name="Jazmin">Jazmín</string>
+    <string name="Tulipan">Tulipán</string>
     <string name="btnVerificar">Verificar</string>
-
 
 </resources>
