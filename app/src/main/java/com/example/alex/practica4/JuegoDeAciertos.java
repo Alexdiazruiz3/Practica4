@@ -94,7 +94,7 @@ public class JuegoDeAciertos extends AppCompatActivity implements FragmentCiudad
                     imgError.setVisibility(View.INVISIBLE);
                     btnVerificar.setBackgroundColor(Color.GREEN);
                 }
-                else if (Paises.radioBelgica.isChecked() && FragmentCiudades.radioBerlin.isChecked())
+                else if (Paises.radioItalia.isChecked() && FragmentCiudades.radioRoma.isChecked())
                 {
                     imgCorrecto.setVisibility(View.VISIBLE);
                     imgError.setVisibility(View.INVISIBLE);
